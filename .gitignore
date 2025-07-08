@@ -1,55 +1,32 @@
+# Python environment and bytecode
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python/
-env/
-venv/
 .venv/
-build/
-develop-eggs/
-dist/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-.mypy_cache/
-.dmypy.json
-dmypy.json
-.pytest_cache/
-.coverage
-.nox/
-docs/_build/
-.ipynb_checkpoints/
-.idea/
+env/
+venv/ 
+.venv
+# VS Code specific files
 .vscode/
-*.sublime-project
-*.sublime-workspace
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+# Operating System specific files
 .DS_Store
 Thumbs.db
-ehthumbs.db
-data/complaints.csv
-*.pkl
-*.pickle
-*.npy
-*.npz
-*.bin
-*.pt
-*.pth
-*.onnx
-*.h5
-*.tf
+
+# Data files (original large file and generated outputs)
+data/complaints.csv 
+data/filtered_complaints.csv 
+data/processed/ 
+*.pkl 
+*.pickle 
+
+# Logs
 logs/
 *.log
+
+# Environment variables
 .env
 .flaskenv
-Dockerfile.orig
-docker-compose.yml.orig
