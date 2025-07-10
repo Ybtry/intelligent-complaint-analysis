@@ -5,7 +5,7 @@ __pycache__/
 .venv/
 env/
 venv/ 
-.venv
+
 # VS Code specific files
 .vscode/
 
@@ -20,8 +20,13 @@ Thumbs.db
 data/complaints.csv 
 data/filtered_complaints.csv 
 data/processed/ 
+data/processed/rag_qualitative_evaluation_report.md 
 *.pkl 
 *.pickle 
+
+# Vector Store files (output from Task 2)
+vector_store/
+*.bin 
 
 # Logs
 logs/
